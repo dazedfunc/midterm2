@@ -5,7 +5,7 @@
 - php artisan key:generate
 - php artisan migrate --seed
 
-Test input data {
-Admin user:    login - testAdmin@gmail.com  password - password
-Student user:  login - testUser@gmail.com   password - testUser
-}
+Test input data
+- Admin user:    login - testAdmin@gmail.com  password - password
+- Student user:  login - testUser@gmail.com   password - testUser
+
