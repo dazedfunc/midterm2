@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ff06b24-2ee7-4a83-83f0-4185ce5dfb4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/QUIZ/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/CategoriesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/OptionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/PermissionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/QuestionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/ResultsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/RolesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/CategoriesApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/OptionsApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/PermissionsApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/QuestionsApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/ResultsApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/RolesApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Api/V1/Admin/UsersApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/ChangePasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/ResultsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Controllers/TestsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/AuthGates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/CheckIfAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/SetLocale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyCategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyOptionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyPermissionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyQuestionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyResultRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyRoleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/MassDestroyUserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreCategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreOptionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StorePermissionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreQuestionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreResultRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreRoleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreTestRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/StoreUserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateCategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateOptionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdatePermissionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateQuestionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateResultRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateRoleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Requests/UpdateUserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/CategoryResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/OptionResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/PermissionResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/QuestionResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/ResultResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/RoleResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Http/Resources/Admin/UserResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Notifications/SendResultsPdfNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000001_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000002_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000003_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000004_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000005_create_questions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000006_create_options_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000007_create_results_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000008_create_permission_role_pivot_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000009_create_role_user_pivot_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000010_create_question_result_pivot_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000011_add_relationship_fields_to_questions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000012_add_relationship_fields_to_options_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_000013_add_relationship_fields_to_results_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/migrations/2020_12_5_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/CategoriesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/OptionsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/PermissionRoleTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/PermissionsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/QuestionsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/RoleUserTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/RolesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/cruds.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/global.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/categories/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/categories/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/options/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/options/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/options/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/options/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/permissions/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/permissions/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/permissions/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/permissions/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/questions/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/questions/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/questions/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/questions/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/results/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/results/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/results/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/results/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/roles/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/roles/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/roles/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/roles/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/admin/users/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/client/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/client/results.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/client/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/layouts/client.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/partials/menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/fonts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/CategoriesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/OptionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/PermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/QuestionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/ResultsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/RolesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Browser/UsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUIZ/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lFG7HLAiPxoawbGUHFZZUNI3xr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ff06b24-2ee7-4a83-83f0-4185ce5dfb4d" name="Default Changelist" comment="" />
+      <created>1607185256730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607185256730</updated>
+      <workItem from="1607185258165" duration="392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
